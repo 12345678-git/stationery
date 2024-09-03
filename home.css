@@ -1,1 +1,7 @@
-this is css file
+body {
+    text-align: center;
+
+}
+header {
+    background-color: rgb(129, 127, 255);
+}
