@@ -1,3 +1,6 @@
+body {
+    align-items: center;
+}
 .product-description {
     border: 2px solid;
     padding: 10px;
