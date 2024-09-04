@@ -9,7 +9,7 @@
 <body>
     <h2>Description</h2>
     <div class="product-description">
-        <form>
+<form action="addproduct" method="post">
             <label for="name">Product Name</label>
             <br>
             <input type="text" id="name" name="name">
@@ -17,11 +17,11 @@
             <label for="description">Product-description</label>
             <br>
             <textarea rows="5" cols="30" name="Description" placeholder="enter product description"></textarea>
-        </form>
+       
     </div>
     <h2>Category</h2>
     <div class="product-category">
-        <form>
+    
             <label for="Category">product-category</label>
             <br>
             <select name="Category">
@@ -29,26 +29,27 @@
                 <option value="school">school</option>
                 <option value="kids">Kids</option>
             </select>
-        </form>
+    
     </div>
     <h2>Selling Type</h2>
     <div class="selling-type">
-        <form>
+        
             <input type="checkbox" name="type" value="pieces" >Pieces<br>
             <input type="checkbox" name="type" value="packet" >Packet<br>
             <input type="checkbox" name="type" value="cartoon" >Cartoon<br>
-        </form>
+        
     </div>
     <h2>pricing</h2>
     <div class="pricing">
-        <form>
+       
             <label>Price</label><br>
             <input type="number">
-        </form>
+        
     </div>
     <br>
     <div class="add-button">
         <button>add product</button>
     </div>
+</form>
 </body>
 </html>
