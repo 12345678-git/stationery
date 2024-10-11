@@ -303,4 +303,15 @@ tfoot td {
    
 }
 
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+img:hover {
+    transform: scale(5);
+}
 
