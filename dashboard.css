@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 110px;
+    width: 240px;
     height: 100vh;
     padding: 0 1.7rem;
     color: #fff;
@@ -23,10 +23,7 @@ body {
     background: #71b7e6;
 }
 
-.sidebar:hover {
-    width: 240px;
-    transition: 0.5%;
-}
+
 .logo {
     height:80px;
     padding: 16px;
@@ -43,7 +40,7 @@ body {
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
-.menu li:hover, .active{
+.menu li:hover, .menu li:active {
     background: #e0e0e058;
 }
 
@@ -129,7 +126,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 10px;
 }
 
 .main--title {
