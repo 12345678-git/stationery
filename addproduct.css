@@ -10,9 +10,14 @@ body {
 }
 
 .container {
+    display: none;
     background: #fff;
     padding: 15px 20px;
     border-radius: 5px;
+}
+
+.additem:hover .container {
+    display: block;
 }
 
 .product-description {
@@ -52,3 +57,4 @@ button {
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 
 }
+

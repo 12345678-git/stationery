@@ -312,3 +312,10 @@ img:hover {
     transform: scale(5);
 }
 
+.container {
+    display: none;
+}
+
+.additem:hover .container {
+    display: block;
+}
