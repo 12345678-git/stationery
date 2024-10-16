@@ -221,6 +221,15 @@
 
         
     </div>
+
+    <script>
+        const sidebar = document.querySelector('.sidebar');
+        const sidebarToggleButton = document.querySelector('.sidebar-toggle-button');
+
+        sidebarToggleButton.addEventListener('click', () => {
+            sidebar.classList.toggle('sidebar-visble');
+        });
+    </script>
 </body>
 </html>
 
